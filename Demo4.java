@@ -20,45 +20,41 @@ public class Demo4 {
           {
 
             int z=1;
-            while(z<=7)
+            while(z<=6)
             {
-                if(x==2 && z==4)
+                if(x==2 && z==3)
                 {
                     int a=0;
-                    while(a<1)
+                    while(a<2)
                     {
+                        if(a==0)
+                        {
+                            System.out.print("/ ");
+                        }
+                        else if(a==1) System.out.print("\\ ");
 
-                        System.out.print("/ ");
+                        
                         a++;
                         
                     }
                     z=5;
                 }
                 
-                 if(x==3 && z==3)
+                 if(x==3 && z==2)
                 {
                     int a=0;
-                    while(a<3)
+                    while(a<4)
                     {
+                        if(a==0||a==1)System.out.print("/ ");
+                        else System.out.print("\\ ");
 
-                        System.out.print("/ ");
+                        
                         a++;
                         
                     }
                     z=6;
                 }
-                  if(x==4 && z==2)
-                {
-                    int a=0;
-                    while(a<5)
-                    {
-
-                        System.out.print("/  ");
-                        a++;
-                        
-                    }
-                    z=7;
-                }
+              
                 System.out.print("+ ");
                 z++;
 
@@ -68,54 +64,48 @@ public class Demo4 {
             
           }
 
+        
+
           /* Second Part*/
 
 
-          int k=5;
+          int k=4;
           int l=1;
           while(l<k)
           {
 
             int m=1;
-            while(m<=7)
+            while(m<=6)
             {
                 if(l==1 && m==2)
                 {
                     int a=0;
-                    while(a<5)
+                    while(a<4)
                     {
+                        if(a==0||a==1) System.out.print("\\ ");
+                        else System.out.print("/ ");
 
-                        System.out.print("/ ");
-                        a++;
-                        
-                    }
-                    m=7;
-                }
-                
-                 if(l==2 && m==3)
-                {
-                    int a=0;
-                    while(a<3)
-                    {
-
-                        System.out.print("/ ");
+                       
                         a++;
                         
                     }
                     m=6;
                 }
-                  if(l==3 && m==4)
+                
+                 if(l==2 && m==3)
                 {
                     int a=0;
-                    while(a<1)
+                    while(a<2)
                     {
-
-                        System.out.print("/ ");
+                        if(a==0)System.out.print("\\ ");
+                        else System.out.print("/ ");
+                        
                         a++;
                         
                     }
                     m=5;
                 }
+                  
                 System.out.print("+ ");
                 m++;
 
